@@ -1,0 +1,105 @@
+.smallTable_parent {
+    margin-bottom: 4vmin;
+    margin-right: 1vmin;
+}
+
+.smallTable_parent > h3 {
+    color: #285943;
+    margin-bottom: 3vmin;
+    margin-left: 5%;
+}
+
+.smallTable_parent .searchField_input {
+    width: 60%;
+    height: 5vh;
+    border-radius: 10px;
+    border: solid 0.5px #747474;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-left: 2vmin;
+    font-size: 1.6vmin;
+    font-weight: 500;
+}
+
+.smallTable_parent > .searchField {
+    background-color: rgba(40, 89, 67, 0.7);
+    width: 80%;
+    padding: 2vmin 2vmin;
+    border-radius: 10px;
+}
+
+.smallTable {
+    width: 90%;
+    min-height: 70vh;
+    margin-top: 4vmin;
+    margin-bottom: 4vmin;
+    background-color: rgba(40, 89, 67, 0.9);
+    border-color: #2d4658;
+    border-width: 20px;
+}
+
+.smallTable > div:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #8CD790;
+}
+
+.smallTable > div {
+    min-height: 5vh;
+    align-items: center;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 13% 35% 35% 17%;
+}
+
+.smallTable div > div {
+    border-right: solid 1.5px #285943;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.smallTable div > div:last-child {
+    border-right: solid 2px transparent;
+}
+
+.smallTable div > div > .header_text {
+    text-align: center;
+    color: #285943;
+    font-size: 1.5vmin;
+    font-weight: bold;
+}
+
+.smallTable > div:not(first-child) {
+    background-color: #D7FFF1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edit_small {
+    margin: 0;
+    font-size:10px;
+    padding: .5vmin 1.5vmin;
+}
+
+.delete_small {
+    margin: 0;
+    font-size:10px;
+    padding: .5vmin 1.5vmin;
+
+}
+
+.list_text{
+    text-align: center;
+    color: #285943;
+    font-size: 1.3vmin;
+    font-weight: 500;
+}

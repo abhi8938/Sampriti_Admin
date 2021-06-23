@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>CLOSE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.4%" y="-3.1%" width="140.9%" height="140.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-33.3%" y="-33.3%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="18.MAIN-UI---ITEM-EDIT" transform="translate(-1157.000000, -568.000000)">
+            <g id="EDIT-PANEL" filter="url(#filter-1)" transform="translate(472.000000, 523.000000)">
+                <g id="CLOSE" filter="url(#filter-2)" transform="translate(691.000000, 51.000000)">
+                    <circle id="Oval" fill="#F44336" cx="18" cy="18" r="18"></circle>
+                    <polygon id="Rectangle-path" fill="#FDFDFD" transform="translate(18.000707, 17.999700) rotate(45.000000) translate(-18.000707, -17.999700) " points="15.8792274 7.39330172 20.1221868 7.39330172 20.1221868 28.6060983 15.8792274 28.6060983"></polygon>
+                    <polygon id="Rectangle-path" fill="#FDFDFD" transform="translate(18.000300, 18.000707) rotate(135.000000) translate(-18.000300, -18.000707) " points="15.8788203 7.39430882 20.1217797 7.39430882 20.1217797 28.6071054 15.8788203 28.6071054"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
